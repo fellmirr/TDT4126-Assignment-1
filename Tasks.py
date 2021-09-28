@@ -52,3 +52,12 @@ map = Map_Obj(task=4)
 astar = Astar(map)
 result = astar.search()
 saveGif("4", astar.frames)
+
+###########
+# Task 4  #
+###########
+print("-- Task 5 --")
+map = Map_Obj(task=5)
+astar = Astar(map, True)
+result = astar.search()
+saveGif("5", astar.frames)

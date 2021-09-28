@@ -168,7 +168,7 @@ class Map_Obj():
                 # Move current goal position
                 move = self.pick_move()
                 self.move_goal_pos(move)
-                #print(self.goal_pos)
+                # print(self.goal_pos)
         self.tick_counter += 1
 
         return self.goal_pos
